@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ChronometreActivity">
+
+
+    <Button
+            android:text="@string/start"
+            android:layout_width="147dp"
+            android:layout_height="108dp" android:id="@+id/lancer"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="15dp"
+            app:layout_constraintEnd_toStartOf="@+id/stop" app:layout_constraintHorizontal_bias="0.303"
+            android:layout_marginTop="340dp"/>
+    <Button
+            android:text="@string/stop"
+            android:layout_width="98dp"
+            android:layout_height="48dp" android:id="@+id/stop"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.853" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="356dp"/>
+    <TextView
+            android:text="Minuteur"
+            android:layout_width="140dp"
+            android:layout_height="34dp" android:id="@+id/textView"
+            android:textSize="24sp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="200dp" android:layout_marginBottom="60dp"
+            app:layout_constraintBottom_toTopOf="@+id/text" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="104dp" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.254" android:layout_marginTop="32dp"/>
+    <TextView
+            android:layout_width="258dp"
+            android:layout_height="57dp" android:id="@+id/text"
+            android:textSize="24sp" tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="216dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="88dp" android:layout_marginBottom="67dp"
+            app:layout_constraintBottom_toTopOf="@+id/lancer" app:layout_constraintVertical_bias="0.0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

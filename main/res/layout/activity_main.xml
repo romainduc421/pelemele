@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/button_bonjour"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginEnd="7dp"
+            android:background="#FFDB29"
+            android:text="@string/bonjour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/button_pic"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="166dp"
+            android:layout_marginEnd="7dp"
+            android:background="#41CD47"
+            android:text="@string/photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/button_chrono"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginEnd="7dp"
+            android:background="#FF5722"
+            android:text="@string/chronometre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/consult_pic"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="266dp"
+            android:layout_marginEnd="7dp"
+            android:background="#2196F3"
+            android:text="@string/pic_consult"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/longue_tache"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="316dp"
+            android:layout_marginEnd="7dp"
+            android:background="#654DD5"
+            android:text="longTask"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/weatherReport"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="366dp"
+            android:layout_marginEnd="7dp"
+            android:background="#1FD6C5"
+            android:text="weather"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/contacts"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="416dp"
+            android:layout_marginEnd="7dp"
+            android:background="#D98EEA"
+            android:text="contacts"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

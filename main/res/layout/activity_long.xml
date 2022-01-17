@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".LongActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="50dp"
+
+            android:inputType="textPersonName"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/prompt"
+            android:layout_marginTop="52dp">
+        <EditText
+
+                android:hint="Enter a number (between 200 and 400)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingStart="5dp"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:inputType="textNoSuggestions"
+                android:textAlignment="center"
+                tools:layout_editor_absoluteX="34dp" app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="52dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView android:layout_width="320dp" android:layout_height="26dp"
+              app:layout_constraintEnd_toEndOf="parent" android:id="@+id/textViewEvo"
+              android:text="0%"
+              app:layout_constraintBottom_toBottomOf="@+id/valider" app:layout_constraintTop_toTopOf="@+id/progressBar"
+              android:textAlignment="center" app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+            android:layout_width="wrap_content" android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/valider"
+            android:text="confirm"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.498"
+            android:layout_marginBottom="156dp"/>
+    <ProgressBar
+            android:layout_width="300dp" android:layout_height="45dp"
+            android:id="@+id/progressBar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="50dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
